@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+// Declare first integer, double, and String variables.
+    int i;
+    double d;
+    string s="HackerRank";
+// Declare second integer, double, and String variables.
+    int a;
+    double b;
+    string c,result;
+    // Read and save an integer, double, and String to your variables.
+    // Note: If you have trouble reading the entire string, please go back and review the Tutorial closely.
+    cin>>a;
+    cin>>b;
+    getline(cin>>ws,c);
+    
+    
+    // Print the sum of both integer variables on a new line.
+    cout<<i+a<<endl;
+    // Print the sum of the double variables on a new line.
+    cout<<fixed<<setprecision(1)<<(b+d)<<endl;
+    // Concatenate and print the String variables on a new line
+    result=s+c;
+    // The 's' variable above should be printed first.
+    cout<<result;
+
+    return 0;
+}
